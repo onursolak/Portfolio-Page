@@ -1,0 +1,35 @@
+
+
+
+#landingmessage h1{
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+
+#aboutme #null{
+    width: 0;
+}
+
+#aboutme h3{
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+
+#skillsheader{
+    margin-top: 10rem;
+}
+
+#skillsheader h1{
+    text-align: center;
+}
+
+#square2{
+    height: 200px;
+}
+
+
+#skills{
+    margin-top: 10rem;
+}

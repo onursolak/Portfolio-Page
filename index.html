@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width:1255px)" href="largescreen.css">
+    <link rel="stylesheet" media="(max-width:1100px)" href="line.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="mediumscreen.css">
+    <link rel="stylesheet" media="(max-width:600px)" href="smallscreen.css">
+
+    <script src="script.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>onursolak</title>
+</head>
+<body class="dark-mode">
+
+    <nav id="nav">
+        <h3>onursolak</h3>
+        <div id="socialmedia">
+            <button onclick="darkModeFunction()">
+                <i class="fa-solid fa-moon" id="moon"></i>
+                <i class="fa-solid fa-sun" id="sun"></i>
+            </button>
+            <a href="https://github.com/onursolak"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/onur-solak-0b4b811ba/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/jemappelleonur/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/jemappelleonur"><i class="fa-brands fa-twitter"></i></a>
+            <div id="square1"></div>
+    </nav>
+
+    <div id="landingmessage">
+        <h1>Nice to meet you! I am <span>Onur Solak.</span></h1>
+        <div></div>
+    </div>
+
+    <div id="aboutme">
+        <div id="null"></div>
+        <h3>Based in the <span>Turkey</span>, I am <span>front-end</span> devloper passionate about building accessible web apps that user love.</h3>
+    </div>
+
+    <div id="skillsheader">
+        <h1>Skills</h1>
+        <div id="line"></div>
+        <div id="square2"></div>
+    </div>
+
+    <div id="skills">
+        <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Javascript</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-bootstrap"></i>
+            <h2>Bootstrap</h2>
+        </div>
+        <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React</h2>
+        </div>
+    </div>
+
+    <footer id="footer">
+
+        <div id="contactmeHeader">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div id="sendMail">
+            <div id="email">
+              <h2>Email</h2>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div id="password">
+              <h2>Message</h2>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div id="state">
+              <h2>About</h2>
+              <select>
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div id="signIn">
+              <button>Send</button>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831;
+    font-family: 'Montserrat', sans-serif;
+    transition: 1S;
+}
+
+.dark-mode{
+    background-color: #a7bcb9;
+
+    #square2, #square1{
+        background-color: #e0ebeb;
+    }
+
+    #nav #socialmedia #sun{
+        visibility: hidden;
+    }
+    #nav #socialmedia #moon{
+        visibility: visible;
+    }
+
+    #landingmessage h1, #skillsheader h1, #skills h2, #nav h3, #socialmedia a, #aboutme h3, #footer h2{
+        color: #222831;
+    }
+
+    #skills i{
+        color: #222831;
+    }
+
+    #skills h2{
+        color: #222831;
+    }
+
+    #landingmessage h1 span{
+        border-bottom: 7px solid #42b883;
+    }
+
+    #skillsheader #line{
+        background: #42b883;
+    }
+
+    #footer{
+        background-color: #899d9a;
+    }
+
+}
+
+
+#square1{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    right: 0rem;
+    top: 0px;
+    z-index: -1;
+    background-color: #606470;
+    transition: 1s;
+}
+
+#square2{
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    left: -25rem;
+    top: -2rem;
+    z-index: -1;
+    background-color: #606470;
+    transition: 1s;
+}
+
+
+
+nav{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: #42b883;
+    padding: 1.5rem 0 5rem 0;
+}
+
+nav h3{
+    margin: 0 1rem 0 1rem;
+}
+
+nav #socialmedia button{
+    border: none;
+    background: none;
+    font-size: 1.7rem;
+    overflow: visible;
+    margin-right: 4rem;
+    position: relative;
+    top: -1.4rem;
+}
+
+nav #socialmedia button i{
+    position: absolute;
+    visibility: hidden;
+}
+
+nav #socialmedia #sun{
+    visibility: visible;
+    color: #e0ebeb;
+}
+nav #socialmedia #moon{
+    visibility: hidden;
+}
+
+nav #socialmedia a{
+    font-size: 1.9rem;
+    margin: 0 1rem 0 1rem;
+    color: #42b883;
+    transition: .3s;
+}
+
+nav #socialmedia a:hover{
+    color: #fff;
+}
+
+nav h3{
+    letter-spacing: .4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: 1S;
+}
+
+
+
+#landingmessage{
+    width: 1250px;
+    margin: 2rem 0 5rem 0;
+    display: flex;
+}
+
+#landingmessage h1{
+    color: #e0ebeb;
+    font-size: 5rem;
+    transition: 1S;
+    width: 80%;
+    margin-left: 1rem;
+}
+
+#landingmessage h1 span{
+    border-bottom: 7px solid #42b883;
+}
+
+
+
+#aboutme{
+    width: 1250px;
+    display: flex;
+    margin-top: 3rem;
+}
+
+#aboutme #null{
+    width: 70%;
+}
+
+#aboutme h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+    color: #42b883;
+    transition: 1S;
+    margin-right: 1rem;
+}
+
+#aboutme h3 span{
+    color: #be3144;
+}
+
+
+
+#skillsheader{
+    width: 1250px;
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#skillsheader h1{
+    color: #e0ebeb;
+    margin-left: 1rem;
+    width: 25%;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    transition: 1s;
+}
+
+#skillsheader #line{
+    height: 7px;
+    width: 75%;
+    background: #42b883;
+    transition: 1s;
+    margin-right: 1rem;
+}
+
+
+
+#skills{
+    display: flex;
+    width: 1250px;
+    margin-top: 13rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills div{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 5rem 1rem;
+}
+
+#skills div i{
+    font-size: 9em;
+    margin-right: 2rem;
+    color: #42b883;
+}
+
+#skills div h2{
+    font-size: 3rem;
+    color: #e0ebeb;
+}
+
+
+
+footer{
+    background-color: #2e3640;
+    width: 100%;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+footer h2{
+    color: #e0ebeb;
+}
+
+footer #contactmeHeader{
+    text-align: center;
+    margin-top: .5rem;
+    letter-spacing: .2rem;
+    font-size: 1.7rem;
+    color: #e0ebeb;
+    margin: 1rem 5rem 0 5rem;
+}
+
+footer #sendMail{
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer #sendMail div{
+    margin-top: 2rem;
+    width: 90%;
+    text-align: center;
+}
+
+footer #email{
+    width: 50%;
+}
+footer #password{
+    width: 40%;
+}
+
+footer #singIn button{
+    font-size: 2rem;
+}
